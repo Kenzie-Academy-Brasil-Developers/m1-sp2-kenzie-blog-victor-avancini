@@ -18,7 +18,7 @@ header h1 {
     padding: 10px;
 }
 
-.section {
+.article {
     display: block;
     border: 2px #637173 solid;
     margin: auto;
@@ -27,9 +27,10 @@ header h1 {
     padding: 5px;
     max-width: 500px;
     background-color: #F2F2F2;
+    line-height: 1.5;
 }
 
-.section h2 {
+.article h2 {
     text-align: justify;
     font-weight: 600;
     line-height: 1.4;
@@ -37,13 +38,7 @@ header h1 {
     font-size: 20px;
 }
 
-.section div {
-    line-height: 1.5;
-    text-align: justify;
-    margin: 0 5px 10px 5px;
-}
-
-.section div a {
+.article a {
     display: block;
     text-align: right;
     text-decoration: none;
@@ -64,6 +59,10 @@ header h1 {
     background-color: #f0d0d0;
     line-height: 1.5;
     text-align: center;
+}
+
+.form h3 {
+    font-weight: 600;
 }
 
 .form input {
